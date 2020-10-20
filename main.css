@@ -27,14 +27,14 @@ body p {
   height: 100vh;
 }
 
-.chats {
+.chatsItens {
   position: absolute;
   right: 0;
   bottom: 0;
   display: flex;
   flex-direction: row-reverse;
 }
-.chats .chat {
+.chatsItens .chatItem {
   width: 300px;
   margin-right: 10px;
   margin-bottom: 0;
@@ -43,55 +43,55 @@ body p {
   flex-direction: column-reverse;
   bottom: 0;
 }
-.chats .chat p {
+.chatsItens .chatItem p {
   margin: 0;
 }
-.chats .chat .chat-content {
+.chatsItens .chatItem .chat-content {
   overflow: auto;
   height: 300px;
 }
-.chats .chat .card {
+.chatsItens .chatItem .card {
   border-radius: 4px;
 }
-.chats .chat .card-header {
+.chatsItens .chatItem .card-header {
   background: #3c8dbc;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 5px;
 }
-.chats .chat .card-header-title i {
+.chatsItens .chatItem .card-header-title i {
   font-size: 10px;
   color: #64DD17;
   margin-right: 6px;
 }
-.chats .chat .card-header .card-header-title {
+.chatsItens .chatItem .card-header .card-header-title {
   color: #fff;
   display: flex;
   align-items: center;
 }
-.chats .chat .card-header .card-header-title p {
+.chatsItens .chatItem .card-header .card-header-title p {
   font-size: 15px;
   font-weight: bold;
 }
-.chats .chat .card-header .card-header-title img {
+.chatsItens .chatItem .card-header .card-header-title img {
   margin-right: 5px;
   width: 30px;
   border-radius: 30px;
 }
-.chats .chat .chat-content small {
+.chatsItens .chatItem .chat-content small {
   margin: 0;
 }
-.chats .chat .chat-content .content {
+.chatsItens .chatItem .chat-content .content {
   padding: 15px;
 }
-.chats .chat .chat-content p {
+.chatsItens .chatItem .chat-content p {
   background: #ecf1f8;
   padding: 10px;
   border-radius: 8px;
   margin-bottom: 0;
 }
-.chats .chat .chat-textarea {
+.chatsItens .chatItem .chat-textarea {
   font-size: 14px;
   padding: 10px;
   width: 100%;
@@ -105,20 +105,20 @@ body p {
   box-shadow: none;
   resize: none;
 }
-.chats .chat .chat-message-group .chat-thumb {
+.chatsItens .chatItem .chat-message-group .chat-thumb {
   float: left;
   width: 16%;
 }
-.chats .chat .chat-message-group .chat-thumb img {
+.chatsItens .chatItem .chat-message-group .chat-thumb img {
   width: 30px;
   border-radius: 30px;
 }
-.chats .chat .chat-message-group .chat-messages {
+.chatsItens .chatItem .chat-message-group .chat-messages {
   float: left;
   width: 84%;
   margin-bottom: 20px;
 }
-.chats .chat .chat-message-group .message {
+.chatsItens .chatItem .chat-message-group .message {
   display: table;
   padding: 10px;
   background: #ecf1f8;
@@ -126,60 +126,60 @@ body p {
   border-radius: 5px;
   margin-bottom: 3px;
 }
-.chats .chat .chat-messages .from {
+.chatsItens .chatItem .chat-messages .from {
   float: left;
   display: block;
   width: 100%;
   text-align: left;
   font-size: 11px;
 }
-.chats .chat .chat-thumb img {
+.chatsItens .chatItem .chat-thumb img {
   border-radius: 40px;
 }
-.chats .chat .writer-user .chat-messages {
+.chatsItens .chatItem .writer-user .chat-messages {
   float: right;
   width: 100%;
 }
-.chats .chat .writer-user .chat-messages .message {
+.chatsItens .chatItem .writer-user .chat-messages .message {
   float: right;
   background: #3c8dbc;
   color: #fff;
 }
-.chats .chat .writer-user .chat-messages .from {
+.chatsItens .chatItem .writer-user .chat-messages .from {
   float: left;
   display: block;
   width: 100%;
   text-align: right;
 }
-.chats .chat .chat-message-group .typing {
+.chatsItens .chatItem .chat-message-group .typing {
   float: left;
 }
-.chats .chat .card-header-icon i {
+.chatsItens .chatItem .card-header-icon i {
   color: #fff;
   font-size: 13px;
   padding: 5px;
 }
-.chats .chat .enviar a {
+.chatsItens .chatItem .enviar a {
   color: #3c8dbc;
 }
-.chats .chat .card-footer {
+.chatsItens .chatItem .card-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid #dbdbdb;
 }
-.chats .chat .card-footer div {
+.chatsItens .chatItem .card-footer div {
   flex-grow: 0;
 }
-.chats .chat .card-footer .form {
+.chatsItens .chatItem .card-footer .form {
   flex: 1;
 }
-.chats .chat .card-footer textarea {
+.chatsItens .chatItem .card-footer textarea {
   width: 100%;
   overflow: hidden;
   font-family: "Lato", sans-serif;
 }
-.chats .chat .card-footer .enviar {
+.chatsItens .chatItem .card-footer .enviar {
   padding: 10px;
 }
 

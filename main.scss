@@ -23,14 +23,14 @@ body {
   right: 0;
   height: 100vh;
 }
-.chats {
+.chatsItens {
   position: absolute;
   right: 0;
   bottom: 0;
   // background: white;
   display: flex;
   flex-direction: row-reverse;
-  .chat {
+  .chatItem {
     width: 300px;
     margin-right: 10px;
     margin-bottom: 0;
